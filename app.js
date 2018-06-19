@@ -2,7 +2,7 @@ var list_subway = BMapSub.SubwayCitiesList;
 console.log('list_subway:', list_subway);
 
 var map = new BMap.Map("allmap",{minZoom:5,maxZoom:8, enableMapClick:false});
-map.centerAndZoom(new BMap.Point(116.404, 39.915), 5);
+map.centerAndZoom(new BMap.Point(100.404, 39.915), 5);
 // nav
 var navControl = new BMap.NavigationControl({
   anchor: BMAP_ANCHOR_TOP_LEFT,
