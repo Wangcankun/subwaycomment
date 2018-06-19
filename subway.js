@@ -225,7 +225,7 @@ for (var i = 0; i < list.length; i++) {
   if (list[i].citycode === code) {
     subwaycity = list[i];
     document.title = '星云地铁站评论-' + subwaycity.name;
-    document.getElementById('topbar').innerText = '星云地铁站评论-' + subwaycity.name;
+    document.getElementById('header-title').innerText = '星云地铁站评论-' + subwaycity.name;
     _g.state.citycode = subwaycity.citycode;
     setTimeout(() => {
       getCityData(subwaycity.citycode);
